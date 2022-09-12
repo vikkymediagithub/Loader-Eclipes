@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+ <head> 
+   <title>eclipes</title>
+   <link rel="stylesheet" href="style.css">
+ </head> 
+ <body> 
+  <div class="wrapper"> 
+   <div class="inner"> 
+    <svg height="200" width="200"> <mask id="moon"> 
+      <rect x="-200" y="0" width="600" height="200" style="fill:white;" /> 
+      <circle cx="100" cy="100" r="95" style="fill:black;" /> 
+     </mask> <g id="sun-g" mask="url(#moon)"> 
+      <circle id="sun" cx="100" cy="100" r="100" style="fill:#DBBB34;" /> 
+     </g> 
+    </svg> 
+   </div> 
+  </div> 
+ </body>
+</html>
